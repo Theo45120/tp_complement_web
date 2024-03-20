@@ -1,0 +1,185 @@
+{
+    "equipements": [
+      {
+        "nom": "Épée de l'Ombre",
+        "type": "Épée",
+        "attributs": {
+          "force": 30,
+          "vitesse": 10,
+          "magie": 5
+        }
+      },
+      {
+        "nom": "Arc de l'Aube",
+        "type": "Arc",
+        "attributs": {
+          "force": 20,
+          "vitesse": 15,
+          "magie": 10
+        }
+      },
+      {
+        "nom": "Dague de l'Éclair",
+        "type": "Dague",
+        "attributs": {
+          "force": 15,
+          "vitesse": 25,
+          "magie": 5
+        }
+      },
+      {
+        "nom": "Marteau de la Foudre",
+        "type": "Marteau",
+        "attributs": {
+          "force": 35,
+          "vitesse": 5,
+          "magie": 5
+        }
+      },
+      {
+        "nom": "Lance de l'Ombre",
+        "type": "Lance",
+        "attributs": {
+          "force": 25,
+          "vitesse": 15,
+          "magie": 5
+        }
+      },
+      {
+        "nom": "Bâton de l'Équilibre",
+        "type": "Bâton",
+        "attributs": {
+          "force": 10,
+          "vitesse": 10,
+          "magie": 30
+        }
+      },
+      {
+        "nom": "Fusil de la Tempête",
+        "type": "Fusil",
+        "attributs": {
+          "force": 20,
+          "vitesse": 20,
+          "magie": 10
+        }
+      },
+      {
+        "nom": "Hache de la Brute",
+        "type": "Hache",
+        "attributs": {
+          "force": 40,
+          "vitesse": 5,
+          "magie": 0
+        }
+      },
+      {
+        "nom": "Éventail de l'Esprit",
+        "type": "Éventail",
+        "attributs": {
+          "force": 5,
+          "vitesse": 20,
+          "magie": 25
+        }
+      },
+      {
+        "nom": "Glaive de la Lune",
+        "type": "Glaive",
+        "attributs": {
+          "force": 30,
+          "vitesse": 20,
+          "magie": 10
+        }
+      },
+      {
+        "nom": "Arcane du Crépuscule",
+        "type": "Baguette",
+        "attributs": {
+          "force": 10,
+          "vitesse": 5,
+          "magie": 40
+        }
+      },
+      {
+        "nom": "Faux de l'Ombre",
+        "type": "Faux",
+        "attributs": {
+          "force": 35,
+          "vitesse": 10,
+          "magie": 5
+        }
+      },
+      {
+        "nom": "Dague de l'Esprit",
+        "type": "Dague",
+        "attributs": {
+          "force": 20,
+          "vitesse": 30,
+          "magie": 10
+        }
+      },
+      {
+        "nom": "Lame de l'Éclair",
+        "type": "Épée",
+        "attributs": {
+          "force": 25,
+          "vitesse": 20,
+          "magie": 15
+        }
+      },
+      {
+        "nom": "Fusil de Cristal",
+        "type": "Fusil",
+        "attributs": {
+          "force": 15,
+          "vitesse": 25,
+          "magie": 20
+        }
+      },
+      {
+        "nom": "Épée du Crépuscule",
+        "type": "Épée",
+        "attributs": {
+          "force": 35,
+          "vitesse": 15,
+          "magie": 10
+        }
+      },
+      {
+        "nom": "Arc de la Brume",
+        "type": "Arc",
+        "attributs": {
+          "force": 15,
+          "vitesse": 10,
+          "magie": 25
+        }
+      },
+      {
+        "nom": "Hache de la Tempête",
+        "type": "Hache",
+        "attributs": {
+          "force": 30,
+          "vitesse": 10,
+          "magie": 15
+        }
+      },
+      {
+        "nom": "Lance de l'Aube",
+        "type": "Lance",
+        "attributs": {
+          "force": 20,
+          "vitesse": 25,
+          "magie": 10
+        }
+      },
+      {
+        "nom": "Baguette de l'Éclipse",
+        "type": "Baguette",
+        "attributs": {
+          "force": 5,
+          "vitesse": 15,
+          "magie": 35
+        }
+      }
+    ]
+  }
+  
