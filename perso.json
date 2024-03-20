@@ -1,0 +1,95 @@
+{
+    "personnages": [
+      {
+        "nom": "Baek Yoon-Ho",
+        "classe": "Tank",
+        "stats": {
+          "force": 70,
+          "vitesse": 75,
+          "magie": 60
+        }
+      },
+      {
+        "nom": "Min Byung-Gyu",
+        "classe": "Épéiste",
+        "stats": {
+          "force": 65,
+          "vitesse": 70,
+          "magie": 50
+        }
+      },
+      {
+        "nom": "Kim Cheol",
+        "classe": "Archer",
+        "stats": {
+          "force": 60,
+          "vitesse": 65,
+          "magie": 45
+        }
+      },
+      {
+        "nom": "Ju Hee-Jin",
+        "classe": "Soutien",
+        "stats": {
+          "force": 55,
+          "vitesse": 60,
+          "magie": 40
+        }
+      },
+      {
+        "nom": "Park Kyung-Hye",
+        "classe": "Soigneur",
+        "stats": {
+          "force": 50,
+          "vitesse": 55,
+          "magie": 35
+        }
+      },
+      {
+        "nom": "Choi Jong-In",
+        "classe": "Guerrier",
+        "stats": {
+          "force": 45,
+          "vitesse": 50,
+          "magie": 30
+        }
+      },
+      {
+        "nom": "Han Song-Yi",
+        "classe": "Assassin",
+        "stats": {
+          "force": 40,
+          "vitesse": 45,
+          "magie": 25
+        }
+      },
+      {
+        "nom": "Joo Suk-Hwan",
+        "classe": "Gardien",
+        "stats": {
+          "force": 35,
+          "vitesse": 40,
+          "magie": 20
+        }
+      },
+      {
+        "nom": "Yoon Gwi-Hyeok",
+        "classe": "Lancier",
+        "stats": {
+          "force": 30,
+          "vitesse": 35,
+          "magie": 15
+        }
+      },
+      {
+        "nom": "Choi Jong-Ryeol",
+        "classe": "Nécromancien",
+        "stats": {
+          "force": 25,
+          "vitesse": 30,
+          "magie": 10
+        }
+      }
+    ]
+  }
+  
