@@ -1,6 +1,6 @@
 import Home from './views/pages/Home.js';
-import ArticleAll from './views/pages/ArticleAll.js';
-import ArticleShow from './views/pages/ArticleShow.js';
+import PersonnageAll from './views/pages/PersonnageAll.js';
+import PersonnageShow from './views/pages/PersonnageShow.js';
 import About from './views/pages/About.js';
 import Error404 from './views/pages/Error404.js';
 
@@ -10,8 +10,8 @@ import Utils from './services/Utils.js';
 const routes = {
     '/'                     : Home
     , '/about'              : About
-    , '/articles'           : ArticleAll
-    , '/articles/:id'       : ArticleShow
+    , '/personnages'        : PersonnageAll
+    , '/articles/:id'       : PersonnageShow
 };
 
 // The router code. Takes a URL, checks against the list of supported routes and then renders the corresponding content page.
