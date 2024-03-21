@@ -11,7 +11,7 @@ const routes = {
     '/'                     : Home
     , '/about'              : About
     , '/personnages'        : PersonnageAll
-    , '/articles/:id'       : PersonnageShow
+    , '/personnages/:id'    : PersonnageShow
 };
 
 // The router code. Takes a URL, checks against the list of supported routes and then renders the corresponding content page.

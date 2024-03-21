@@ -1,8 +1,49 @@
 {
     "personnages": [
       {
+        "nom": "Sung Jin-Woo",
+        "classe": "Chasseur",
+        "image": "https://netflix-news.atsit.in/th/wp-content/uploads/2022/01/e0b8ade0b8b0e0b899e0b8b4e0b980e0b8a1e0b8b0-solo-leveling-e0b8a2e0b8b7e0b899e0b8a2e0b8b1e0b899e0b8ade0b8a2e0b988e0b8b2e0b887e0b980e0b89b.jpg",
+        "stats": {
+          "force": 600,
+          "vitesse": 600,
+          "magie": 600
+        }
+      },
+      {
+        "nom": "Cha Hae-In",
+        "classe": "Mage de combat",
+        "image":"https://images5.alphacoders.com/109/thumb-1920-1096399.png",
+        "stats": {
+          "force": 80,
+          "vitesse": 85,
+          "magie": 95
+        }
+      },
+      {
+        "nom": "Go Gun-Hee",
+        "classe": "Maître de guilde",
+        "image":"https://image.lag.vn/upload/news/20/10/01/du-doan-spoiler-solo-leveling-122-5_XQPK.jpg",
+        "stats": {
+          "force": 85,
+          "vitesse": 80,
+          "magie": 90
+        }
+      },
+      {
+        "nom": "Yoo Jin-Ho",
+        "classe": "Magicien",
+        "image":"https://th.bing.com/th/id/OIP.eU3Vfrpzd1kkLLX4yTfVnQHaEK?w=640&h=360&rs=1&pid=ImgDetMain",
+        "stats": {
+          "force": 75,
+          "vitesse": 70,
+          "magie": 95
+        }
+      },
+      {
         "nom": "Baek Yoon-Ho",
         "classe": "Tank",
+        "image":"https://i.pinimg.com/736x/a5/58/cd/a558cd7487ecb10dfa9197300870db99.jpg",
         "stats": {
           "force": 70,
           "vitesse": 75,
@@ -12,6 +53,7 @@
       {
         "nom": "Min Byung-Gyu",
         "classe": "Épéiste",
+        "image":"https://i.pinimg.com/originals/2a/99/44/2a9944bbbb845dbcb6d5e165c531b160.png",
         "stats": {
           "force": 65,
           "vitesse": 70,
@@ -21,6 +63,7 @@
       {
         "nom": "Kim Cheol",
         "classe": "Archer",
+        "image":"https://s.kaskus.id/images/2020/04/22/8332131_20200422085945.png",
         "stats": {
           "force": 60,
           "vitesse": 65,
@@ -30,6 +73,7 @@
       {
         "nom": "Ju Hee-Jin",
         "classe": "Soutien",
+        "image":"https://th.bing.com/th/id/OIP.REG2f2XD5A8ywFAeCzkS8wHaEd?rs=1&pid=ImgDetMain",
         "stats": {
           "force": 55,
           "vitesse": 60,
@@ -39,6 +83,7 @@
       {
         "nom": "Park Kyung-Hye",
         "classe": "Soigneur",
+        "image":"https://th.bing.com/th/id/OIP.CPwBSWhzxYoJ9F7DO-NOdwHaJ5?rs=1&pid=ImgDetMain",
         "stats": {
           "force": 50,
           "vitesse": 55,
@@ -48,6 +93,7 @@
       {
         "nom": "Choi Jong-In",
         "classe": "Guerrier",
+        "image":"https://th.bing.com/th/id/OIP.ZZ_KF9CnXaSrn3Equ-MRhgHaKP?rs=1&pid=ImgDetMain",
         "stats": {
           "force": 45,
           "vitesse": 50,
@@ -57,6 +103,7 @@
       {
         "nom": "Han Song-Yi",
         "classe": "Assassin",
+        "image":"https://th.bing.com/th/id/OIP.UvdzgjzialjppWEDP878YwHaIz?rs=1&pid=ImgDetMain",
         "stats": {
           "force": 40,
           "vitesse": 45,
@@ -64,26 +111,29 @@
         }
       },
       {
-        "nom": "Joo Suk-Hwan",
-        "classe": "Gardien",
+        "nom": "Sung Jin-ah",
+        "classe": "citoyenne",
+        "image":"https://i.pinimg.com/736x/db/cc/6d/dbcc6d22a28a018e622c85660c6e305f.jpg",
         "stats": {
-          "force": 35,
-          "vitesse": 40,
-          "magie": 20
+          "force": 5,
+          "vitesse": 5,
+          "magie": 0
         }
       },
       {
-        "nom": "Yoon Gwi-Hyeok",
-        "classe": "Lancier",
+        "nom": "Thomas Andre",
+        "classe": "Guerrier",
+        "image":"https://th.bing.com/th/id/OIP.QOa3tHXNSmLmxvwtlWJmAAHaHa?rs=1&pid=ImgDetMain",
         "stats": {
-          "force": 30,
-          "vitesse": 35,
-          "magie": 15
+          "force": 300,
+          "vitesse": 300,
+          "magie": 300
         }
       },
       {
         "nom": "Choi Jong-Ryeol",
         "classe": "Nécromancien",
+        "image":"https://i.pinimg.com/originals/f0/3f/2a/f03f2ae3b90accd70b3622139a3190bf.jpg",
         "stats": {
           "force": 25,
           "vitesse": 30,
