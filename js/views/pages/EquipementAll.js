@@ -11,7 +11,7 @@ export default class equipementAll {
                     /*html*/`
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="$equipement.image" alt="Image du equipement" style="width: 100%; height: 200px; object-fit: cover; border-radius:10%;">
+                            <img src="${equipement.image}" alt="Image du equipement" style="width: 100%; height: 200px; object-fit: cover; border-radius:10%;">
                             <div class="card-body">
                                 <p class="card-text">${equipement.nom ? equipement.nom.slice(0,100) : ''}</p>
                                 <div class="d-flex justify-content-between align-items-center">
