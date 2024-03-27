@@ -1,6 +1,8 @@
 import Home from './views/pages/Home.js';
 import PersonnageAll from './views/pages/PersonnageAll.js';
 import PersonnageShow from './views/pages/PersonnageShow.js';
+import EquipementAll from './views/pages/EquipementAll.js';
+import EquipementShow from './views/pages/EquipementShow.js';
 import About from './views/pages/About.js';
 import Error404 from './views/pages/Error404.js';
 
@@ -12,6 +14,8 @@ const routes = {
     , '/about'              : About
     , '/personnages'        : PersonnageAll
     , '/personnages/:id'    : PersonnageShow
+    , '/equipements'        : EquipementAll
+    , '/equipements/:id'    : EquipementShow
 };
 
 // The router code. Takes a URL, checks against the list of supported routes and then renders the corresponding content page.
