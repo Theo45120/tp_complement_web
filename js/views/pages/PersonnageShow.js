@@ -7,7 +7,6 @@ export default class PersonnageShow {
         let post = await PersonnageProvider.getPersonnage(request.id)
         
         return /*html*/`
-        TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
             <section class="section">
                 <h1> Nom du personnage : ${post.nom}</h1>
                 <h2> Classe : ${post.classe} </h2>

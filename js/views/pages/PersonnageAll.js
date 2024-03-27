@@ -13,7 +13,7 @@ export default class PersonnageAll {
                         <div class="card shadow-sm">
                             <img src="${personnage.image}" alt="Image du personnage" style="width: 100%; height: 200px; object-fit: cover; border-radius:10%;">
                             <div class="card-body">
-                                <p class="card-text">${personnage.nom ? personnage.nom.slice(0,100) : ''}</p>
+                                <p id="name" class="card-text">${personnage.nom ? personnage.nom.slice(0,100) : ''}</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <a href="#/personnages/${personnage.id}" class="btn btn-sm btn-outline-secondary">Voir les statistiques</a>
