@@ -38,6 +38,7 @@ export default class PersonnageShow {
                     <li> Magie : ${post.stats.magie} </li>
                 </ul>
                 <div>
+                    <h3> Note actuelle : ${post.note}</h3>
                     <label for="note">Note: (0-5):</label>
                     <input type="number" id="note" name="note" min="0" max="5" />
                     <input type="submit" onclick="submitNote('${request.id}')" value="NOTER">
