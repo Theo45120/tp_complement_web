@@ -36,7 +36,7 @@ export default class PersonnageProvider {
 
     static PutNote = async (id, note) => {
         const options = {
-           method: 'PUT',
+           method: 'PATCH',
            headers: {
                'Content-Type': 'application/json'
            },

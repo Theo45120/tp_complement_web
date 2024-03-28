@@ -1,7 +1,15 @@
 import Utils        from '../../services/Utils.js'
 import PersonnageProvider from "../../services/PersonnageProvider.js";
 
+
+window.submitNote = function(id) {
+    const note = document.getElementById('note').value;
+    PersonnageProvider.PutNote(id, note);
+}
+
 export default class PersonnageShow {
+
+
     async render () {
         let request = Utils.parseRequestURL()
         let post = await PersonnageProvider.getPersonnage(request.id)
@@ -21,12 +29,14 @@ export default class PersonnageShow {
                 <div>
                     <label for="note">Note: (0-5):</label>
                     <input type="number" id="note" name="note" min="0" max="5" />
-                    <input type="submit" onclick="${PersonnageProvider.PutNote(request.id, document.getElementById('note').value)}">
+                    <input type="submit" onclick="submitNote('${request.id}')" value="NOTER">
                 </div>
             </section>
             <p><a href="/">back to home</a></p>
             <p><a href="#/articles">back to all articles</a></p>
         `
     }
+
+   
 }
 
