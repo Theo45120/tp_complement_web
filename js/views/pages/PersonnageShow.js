@@ -7,6 +7,17 @@ window.submitNote = function(id) {
     PersonnageProvider.PutNote(id, note);
 }
 
+window.add = function(id) {
+    let itemsArray = localStorage.getItem('favoris') ?
+    JSON.parse(localStorage.getItem('favoris')) : [];
+
+    if (!itemsArray.includes(id)){
+        itemsArray.push(id);
+        localStorage.setItem('favoris', JSON.stringify(itemsArray));
+    }
+    console.log(localStorage.getItem('favoris'))
+  }
+
 export default class PersonnageShow {
 
 
@@ -31,6 +42,7 @@ export default class PersonnageShow {
                     <input type="number" id="note" name="note" min="0" max="5" />
                     <input type="submit" onclick="submitNote('${request.id}')" value="NOTER">
                 </div>
+                <button onclick="add('${request.id}')">Ajouter en favoris <i class="fa-solid fa-plus"></i></button>
             </section>
             <p><a href="/">back to home</a></p>
             <p><a href="#/articles">back to all articles</a></p>
