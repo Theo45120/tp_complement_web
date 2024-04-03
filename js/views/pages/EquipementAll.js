@@ -35,6 +35,7 @@ export default class EquipementAll {
                                             <a href="#/equipements/${equipement.id}" class="btn btn-sm btn-outline-secondary">Voir les statistiques</a>
                                         </div>
                                         <small class="text-body-secondary">${equipement.type}</small>
+
                                     </div>
                                 </div>
                             </div>
