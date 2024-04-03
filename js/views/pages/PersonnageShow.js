@@ -51,12 +51,42 @@ window.addItem = async function(id) {
       </div>
   </div>
   `;
+
+  let statforceLi = document.getElementById("force");
+  let nbforce = statforceLi.innerText.split(" : ")[1];
+  nbforce = parseInt(nbforce);
+  nbforce += equipement.attributs.force;
+  statforceLi.innerText = "Force : " + nbforce;
+
+  let statVitesseLi = document.getElementById("vitesse");
+  let nbVitesse = statVitesseLi.innerText.split(" : ")[1];
+  nbVitesse = parseInt(nbVitesse);
+  nbVitesse += equipement.attributs.vitesse;
+  statVitesseLi.innerText = "Vitesse : " + nbVitesse;
+
+  let statMagieLi = document.getElementById("magie");
+  let nbMagie = statMagieLi.innerText.split(" : ")[1];
+  nbMagie = parseInt(nbMagie);
+  nbMagie += equipement.attributs.magie;
+  statMagieLi.innerText = "Magie : " + nbMagie;
 }
 
 window.supprItem = async function(id) {
+    let personnage = await PersonnageProvider.getPersonnage(id)
     PersonnageProvider.PutEquipement(id, "");
     let divEquipement = document.getElementById("Equipement");
     divEquipement.innerHTML = '';
+
+    console.log(personnage.stats);
+
+    let statforceLi = document.getElementById("force");
+    statforceLi.innerText = "Force : " + personnage.stats.force;
+
+    let statVitesseLi = document.getElementById("vitesse");
+    statVitesseLi.innerText = "Vitesse : " + personnage.stats.vitesse;
+
+    let statMagieLi = document.getElementById("magie");
+    statMagieLi.innerText = "Magie : " + personnage.stats.magie;
   }
 
 
@@ -77,9 +107,16 @@ export default class PersonnageShow {
         let equipements = await EquipementProvider.fetchEquipements(50);
 
 
+        let statForce = post.stats.force;
+        let statVitesse = post.stats.vitesse;
+        let statMagie = post.stats.magie;
+
         let equipementEquipe = null;
         if(post.equipements != [] || post.equipements != ""){
             equipementEquipe = await EquipementProvider.getEquipement(post.equipements);
+            statForce += equipementEquipe.attributs.force;
+            statVitesse += equipementEquipe.attributs.vitesse;
+            statMagie += equipementEquipe.attributs.magie;
         }
         
         return /*html*/`
@@ -90,9 +127,9 @@ export default class PersonnageShow {
                 <p> Une description en attente</p>
                 <h2> Statistique </h2>
                 <ul>
-                    <li> Force : ${post.stats.force} </li>
-                    <li> Vitesse : ${post.stats.vitesse} </li>
-                    <li> Magie : ${post.stats.magie} </li>
+                    <li id="force"> Force : ${statForce} </li>
+                    <li id="vitesse"> Vitesse : ${statVitesse} </li>
+                    <li id="magie"> Magie : ${statMagie} </li>
                 </ul>
                 <div>
                     <h3> Note actuelle : ${post.note}</h3>
