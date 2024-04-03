@@ -9,8 +9,9 @@
         "vitesse": 600,
         "magie": 600
       },
-      "note": "5",
-      "id": "cf31"
+      "note": "1",
+      "id": "cf31",
+      "equipements": "a1b9"
     },
     {
       "nom": "Cha Hae-In",
@@ -22,7 +23,8 @@
         "magie": 95
       },
       "note": "5",
-      "id": "602d"
+      "id": "602d",
+      "equipements": ""
     },
     {
       "nom": "Go Gun-Hee",
@@ -34,7 +36,8 @@
         "magie": 90
       },
       "note": null,
-      "id": "009a"
+      "id": "009a",
+      "equipements": ""
     },
     {
       "nom": "Yoo Jin-Ho",
@@ -46,7 +49,8 @@
         "magie": 95
       },
       "note": null,
-      "id": "9eb9"
+      "id": "9eb9",
+      "equipements": ""
     },
     {
       "nom": "Baek Yoon-Ho",
@@ -58,7 +62,8 @@
         "magie": 60
       },
       "note": null,
-      "id": "66ac"
+      "id": "66ac",
+      "equipements": ""
     },
     {
       "nom": "Min Byung-Gyu",
@@ -70,7 +75,8 @@
         "magie": 50
       },
       "note": null,
-      "id": "2c0c"
+      "id": "2c0c",
+      "equipements": ""
     },
     {
       "nom": "Kim Cheol",
@@ -82,7 +88,8 @@
         "magie": 45
       },
       "note": null,
-      "id": "d61c"
+      "id": "d61c",
+      "equipements": ""
     },
     {
       "nom": "Ju Hee-Jin",
@@ -94,7 +101,8 @@
         "magie": 40
       },
       "note": null,
-      "id": "37b2"
+      "id": "37b2",
+      "equipements": ""
     },
     {
       "nom": "Park Kyung-Hye",
@@ -106,7 +114,8 @@
         "magie": 35
       },
       "note": null,
-      "id": "fe19"
+      "id": "fe19",
+      "equipements": ""
     },
     {
       "nom": "Choi Jong-In",
@@ -118,7 +127,8 @@
         "magie": 30
       },
       "note": null,
-      "id": "5086"
+      "id": "5086",
+      "equipements": ""
     },
     {
       "nom": "Han Song-Yi",
@@ -130,7 +140,8 @@
         "magie": 25
       },
       "note": null,
-      "id": "cd39"
+      "id": "cd39",
+      "equipements": ""
     },
     {
       "nom": "Sung Jin-ah",
@@ -142,7 +153,8 @@
         "magie": 0
       },
       "note": "5",
-      "id": "222a"
+      "id": "222a",
+      "equipements": ""
     },
     {
       "nom": "Thomas Andre",
@@ -154,7 +166,8 @@
         "magie": 300
       },
       "note": null,
-      "id": "04e7"
+      "id": "04e7",
+      "equipements": ""
     },
     {
       "nom": "Woo Jinchul",
@@ -166,7 +179,8 @@
         "magie": 10
       },
       "note": null,
-      "id": "b8fa"
+      "id": "b8fa",
+      "equipements": ""
     }
   ],
   "equipements": [
@@ -376,4 +390,3 @@
     }
   ]
 }
-
