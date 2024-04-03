@@ -34,6 +34,7 @@ window.addItem = async function(id) {
   let equipement = await EquipementProvider.getEquipement(idItem);
   let divEquipement = document.getElementById("Equipement");
   divEquipement.innerHTML = /*html*/`
+  <button  onclick="supprItem('${id}')">Supprimer l'équipement<i class="fa-solid fa-plus"></i></button>
   <div class="col">
       <div class="card shadow-sm">
           <img src="${equipement.image}" alt="Image de l'équipement" style="width: 100%; height: 200px; object-fit: cover; border-radius:10%;">
@@ -51,6 +52,12 @@ window.addItem = async function(id) {
   </div>
   `;
 }
+
+window.supprItem = async function(id) {
+    PersonnageProvider.PutEquipement(id, "");
+    let divEquipement = document.getElementById("Equipement");
+    divEquipement.innerHTML = '';
+  }
 
 
 export default class PersonnageShow {
@@ -108,7 +115,8 @@ export default class PersonnageShow {
                     <h2>Equipement équipé</h2>
                     <div id="Equipement">
                     ${equipementEquipe ? 
-                        `<div class="col">
+                        `<button  onclick="supprItem('${request.id}')">Supprimer l'équipement<i class="fa-solid fa-plus"></i></button>
+                        <div class="col">
                             <div class="card shadow-sm">
                                 <img src="${equipementEquipe.image}" alt="Image de l'équipement" style="width: 100%; height: 200px; object-fit: cover; border-radius:10%;">
                                 <div class="card-body">
@@ -128,7 +136,6 @@ export default class PersonnageShow {
                 </div>
             </section>
             <p><a href="/">back to home</a></p>
-            <p><a href="#/articles">back to all articles</a></p>
         `
     }
 }
