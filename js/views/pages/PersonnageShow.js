@@ -36,11 +36,6 @@ window.addOrRemoveFavorite = function(id) {
 }
 
 
-
-
-
-
-
 export default class PersonnageShow {
 
 
@@ -79,7 +74,5 @@ export default class PersonnageShow {
             <p><a href="#/articles">back to all articles</a></p>
         `
     }
-
-   
 }
 
