@@ -18,12 +18,42 @@ window.add = function(id) {
     console.log(localStorage.getItem('favoris'))
   }
 
+
+window.addOrRemoveFavorite = function(id) {
+    let itemsArray = localStorage.getItem('favoris') ? JSON.parse(localStorage.getItem('favoris')) : [];
+
+    if (!itemsArray.includes(id)){
+        itemsArray.push(id);
+        localStorage.setItem('favoris', JSON.stringify(itemsArray));
+        document.getElementById('favoriteButton').innerText = "Supprimer des favoris";
+    } else {
+        let itemsArrayfilter = itemsArray.filter(itemId => itemId !== id);
+        localStorage.setItem('favoris', JSON.stringify(itemsArrayfilter));
+        document.getElementById('favoriteButton').innerText = "Ajouter en favoris";
+        console.log(localStorage.getItem('favoris'));
+    }
+    console.log(localStorage.getItem('favoris'));
+}
+
+
+
+
+
+
+
 export default class PersonnageShow {
 
 
     async render () {
         let request = Utils.parseRequestURL()
         let post = await PersonnageProvider.getPersonnage(request.id)
+        let itemsArray = localStorage.getItem('favoris') ? JSON.parse(localStorage.getItem('favoris')) : [];
+        let nameButton = "";
+        if (!itemsArray.includes(request.id)){
+            nameButton = "Ajouter en favoris";
+        } else {
+            nameButton = "Supprimer des favoris";
+        }
         
         return /*html*/`
             <section class="section">
@@ -43,7 +73,7 @@ export default class PersonnageShow {
                     <input type="number" id="note" name="note" min="0" max="5" />
                     <input type="submit" onclick="submitNote('${request.id}')" value="NOTER">
                 </div>
-                <button onclick="add('${request.id}')">Ajouter en favoris <i class="fa-solid fa-plus"></i></button>
+                <button id='favoriteButton' onclick="addOrRemoveFavorite('${request.id}')">${nameButton}<i class="fa-solid fa-plus"></i></button>
             </section>
             <p><a href="/">back to home</a></p>
             <p><a href="#/articles">back to all articles</a></p>
