@@ -107,7 +107,7 @@ export default class PersonnageShow {
                 <div>
                     <h2>Equipement équipé</h2>
                     <div id="Equipement">
-                    ${equipementEquipe != ''  ? 
+                    ${equipementEquipe ? 
                         `<div class="col">
                             <div class="card shadow-sm">
                                 <img src="${equipementEquipe.image}" alt="Image de l'équipement" style="width: 100%; height: 200px; object-fit: cover; border-radius:10%;">
