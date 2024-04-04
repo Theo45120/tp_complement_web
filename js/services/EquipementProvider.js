@@ -1,6 +1,6 @@
 import { ENDPOINTITEM } from '../config.js'
 
-export default class PersonnageProvider {
+export default class EquipementProvider {
 
     static fetchEquipements = async (limit = 10) => {
         const options = {

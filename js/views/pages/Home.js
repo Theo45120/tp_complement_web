@@ -34,10 +34,6 @@ export default class Home {
                         <p class="lead">Le récit suit son parcours alors qu'il progresse de manière exponentielle, acquérant de nouvelles compétences et capacités. Au fur et à mesure que l'histoire avance, Jin-Woo se trouve impliqué dans des conspirations plus vastes et des enjeux mondiaux, se frayant un chemin à travers des donjons et affrontant des adversaires redoutables pour protéger ceux qui lui sont chers. </p> <br></br>
                         
                         <p class="lead"> " Solo Leveling " est apprécié pour son action intense, ses rebondissements captivants et son protagoniste charismatique. Il explore également des thèmes tels que la détermination, le dépassement de soi et la loyauté. La série a acquis une grande popularité tant en Corée qu'à l'international, attirant de nombreux fans de light novels et de webcomics.</p>
-                        <p>
-                            <a href="" class="btn btn-primary my-2">Main call to action</a>
-                            <a href="" class="btn btn-secondary my-2">Secondary action</a>
-                        </p>
                     </div>
                 </div>
             </section>
