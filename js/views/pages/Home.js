@@ -14,7 +14,7 @@ export default class Home {
                     <p id="name" class="card-text">${personnage.nom ? personnage.nom.slice(0, 100) : ''}</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                        <a href="#/articles/article.id" class="btn btn-sm btn-outline-secondary">+ détail sur les statistiques</a>
+                        <a href="#/personnages/${personnage.id}" class="btn btn-sm btn-outline-secondary">+ détail sur les statistiques</a>
                         </div>
                         <small class="text-body-secondary">${personnage.classe}</small>
                     </div>
