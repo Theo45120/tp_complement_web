@@ -52,22 +52,22 @@ window.addItem = async function(id) {
   </div>
   `;
 
+  let personnage = await PersonnageProvider.getPersonnage(id);
+
+
   let statforceLi = document.getElementById("force");
-  let nbforce = statforceLi.innerText.split(" : ")[1];
-  nbforce = parseInt(nbforce);
-  nbforce += equipement.attributs.force;
+  let nbforce = personnage.stats.force;
+  nbforce = nbforce + equipement.attributs.force;
   statforceLi.innerText = "Force : " + nbforce;
 
   let statVitesseLi = document.getElementById("vitesse");
-  let nbVitesse = statVitesseLi.innerText.split(" : ")[1];
-  nbVitesse = parseInt(nbVitesse);
-  nbVitesse += equipement.attributs.vitesse;
+  let nbVitesse = personnage.stats.vitesse
+  nbVitesse = nbVitesse + equipement.attributs.vitesse;
   statVitesseLi.innerText = "Vitesse : " + nbVitesse;
 
   let statMagieLi = document.getElementById("magie");
-  let nbMagie = statMagieLi.innerText.split(" : ")[1];
-  nbMagie = parseInt(nbMagie);
-  nbMagie += equipement.attributs.magie;
+  let nbMagie = personnage.stats.magie
+  nbMagie = nbMagie + equipement.attributs.magie;
   statMagieLi.innerText = "Magie : " + nbMagie;
 }
 
