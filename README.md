@@ -1,2 +1,5 @@
 ﻿# tp_complement_web
-il n'est pas vide
+
+### Lancer le serveur : npx server-json perso.json
+### Lancer le site : php -S localhost:8000
+
