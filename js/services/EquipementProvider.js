@@ -1,8 +1,8 @@
-import { ENDPOINT } from '../config.js'
+import { ENDPOINTITEM } from '../config.js'
 
-export default class ArticleProvider {
+export default class EquipementProvider {
 
-    static fetchArticles = async (limit = 10) => {
+    static fetchEquipements = async (limit = 10) => {
         const options = {
            method: 'GET',
            headers: {
@@ -10,7 +10,7 @@ export default class ArticleProvider {
            }
        };
        try {
-           const response = await fetch(`${ENDPOINT}?_limit=${limit}`, options)
+           const response = await fetch(`${ENDPOINTITEM}?_limit=${limit}`, options)
            const json = await response.json();
            return json
        } catch (err) {
@@ -18,7 +18,7 @@ export default class ArticleProvider {
        }
     }
 
-    static getArticle = async (id) => {
+    static getEquipement = async (id) => {
         const options = {
            method: 'GET',
            headers: {
@@ -26,7 +26,7 @@ export default class ArticleProvider {
            }
        };
        try {
-           const response = await fetch(`${ENDPOINT}/` + id, options)
+           const response = await fetch(`${ENDPOINTITEM}/` + id, options)
            const json = await response.json();
            return json
        } catch (err) {

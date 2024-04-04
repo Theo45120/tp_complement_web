@@ -1,95 +1,392 @@
 {
-    "personnages": [
-      {
-        "nom": "Baek Yoon-Ho",
-        "classe": "Tank",
-        "stats": {
-          "force": 70,
-          "vitesse": 75,
-          "magie": 60
-        }
+  "personnages": [
+    {
+      "nom": "Sung Jin-Woo",
+      "classe": "Chasseur",
+      "image": "https://netflix-news.atsit.in/th/wp-content/uploads/2022/01/e0b8ade0b8b0e0b899e0b8b4e0b980e0b8a1e0b8b0-solo-leveling-e0b8a2e0b8b7e0b899e0b8a2e0b8b1e0b899e0b8ade0b8a2e0b988e0b8b2e0b887e0b980e0b89b.jpg",
+      "stats": {
+        "force": 600,
+        "vitesse": 600,
+        "magie": 600
       },
-      {
-        "nom": "Min Byung-Gyu",
-        "classe": "Épéiste",
-        "stats": {
-          "force": 65,
-          "vitesse": 70,
-          "magie": 50
-        }
+      "note": "4",
+      "id": "cf31",
+      "equipements": ""
+    },
+    {
+      "nom": "Cha Hae-In",
+      "classe": "Mage de combat",
+      "image": "https://images5.alphacoders.com/109/thumb-1920-1096399.png",
+      "stats": {
+        "force": 80,
+        "vitesse": 85,
+        "magie": 95
       },
-      {
-        "nom": "Kim Cheol",
-        "classe": "Archer",
-        "stats": {
-          "force": 60,
-          "vitesse": 65,
-          "magie": 45
-        }
+      "note": "5",
+      "id": "602d",
+      "equipements": ""
+    },
+    {
+      "nom": "Go Gun-Hee",
+      "classe": "Maître de guilde",
+      "image": "https://image.lag.vn/upload/news/20/10/01/du-doan-spoiler-solo-leveling-122-5_XQPK.jpg",
+      "stats": {
+        "force": 85,
+        "vitesse": 80,
+        "magie": 90
       },
-      {
-        "nom": "Ju Hee-Jin",
-        "classe": "Soutien",
-        "stats": {
-          "force": 55,
-          "vitesse": 60,
-          "magie": 40
-        }
+      "note": null,
+      "id": "009a",
+      "equipements": "1652"
+    },
+    {
+      "nom": "Yoo Jin-Ho",
+      "classe": "Magicien",
+      "image": "https://th.bing.com/th/id/OIP.eU3Vfrpzd1kkLLX4yTfVnQHaEK?w=640&h=360&rs=1&pid=ImgDetMain",
+      "stats": {
+        "force": 75,
+        "vitesse": 70,
+        "magie": 95
       },
-      {
-        "nom": "Park Kyung-Hye",
-        "classe": "Soigneur",
-        "stats": {
-          "force": 50,
-          "vitesse": 55,
-          "magie": 35
-        }
+      "note": null,
+      "id": "9eb9",
+      "equipements": ""
+    },
+    {
+      "nom": "Baek Yoon-Ho",
+      "classe": "Tank",
+      "image": "https://i.pinimg.com/736x/a5/58/cd/a558cd7487ecb10dfa9197300870db99.jpg",
+      "stats": {
+        "force": 70,
+        "vitesse": 75,
+        "magie": 60
       },
-      {
-        "nom": "Choi Jong-In",
-        "classe": "Guerrier",
-        "stats": {
-          "force": 45,
-          "vitesse": 50,
-          "magie": 30
-        }
+      "note": null,
+      "id": "66ac",
+      "equipements": ""
+    },
+    {
+      "nom": "Min Byung-Gyu",
+      "classe": "Épéiste",
+      "image": "https://i.pinimg.com/originals/2a/99/44/2a9944bbbb845dbcb6d5e165c531b160.png",
+      "stats": {
+        "force": 65,
+        "vitesse": 70,
+        "magie": 50
       },
-      {
-        "nom": "Han Song-Yi",
-        "classe": "Assassin",
-        "stats": {
-          "force": 40,
-          "vitesse": 45,
-          "magie": 25
-        }
+      "note": null,
+      "id": "2c0c",
+      "equipements": ""
+    },
+    {
+      "nom": "Kim Cheol",
+      "classe": "Archer",
+      "image": "https://s.kaskus.id/images/2020/04/22/8332131_20200422085945.png",
+      "stats": {
+        "force": 60,
+        "vitesse": 65,
+        "magie": 45
       },
-      {
-        "nom": "Joo Suk-Hwan",
-        "classe": "Gardien",
-        "stats": {
-          "force": 35,
-          "vitesse": 40,
-          "magie": 20
-        }
+      "note": null,
+      "id": "d61c",
+      "equipements": ""
+    },
+    {
+      "nom": "Ju Hee-Jin",
+      "classe": "Soutien",
+      "image": "https://th.bing.com/th/id/OIP.REG2f2XD5A8ywFAeCzkS8wHaEd?rs=1&pid=ImgDetMain",
+      "stats": {
+        "force": 55,
+        "vitesse": 60,
+        "magie": 40
       },
-      {
-        "nom": "Yoon Gwi-Hyeok",
-        "classe": "Lancier",
-        "stats": {
-          "force": 30,
-          "vitesse": 35,
-          "magie": 15
-        }
+      "note": null,
+      "id": "37b2",
+      "equipements": ""
+    },
+    {
+      "nom": "Park Kyung-Hye",
+      "classe": "Soigneur",
+      "image": "https://th.bing.com/th/id/OIP.CPwBSWhzxYoJ9F7DO-NOdwHaJ5?rs=1&pid=ImgDetMain",
+      "stats": {
+        "force": 50,
+        "vitesse": 55,
+        "magie": 35
       },
-      {
-        "nom": "Choi Jong-Ryeol",
-        "classe": "Nécromancien",
-        "stats": {
-          "force": 25,
-          "vitesse": 30,
-          "magie": 10
-        }
-      }
-    ]
-  }
-  
+      "note": null,
+      "id": "fe19",
+      "equipements": ""
+    },
+    {
+      "nom": "Choi Jong-In",
+      "classe": "Guerrier",
+      "image": "https://th.bing.com/th/id/OIP.ZZ_KF9CnXaSrn3Equ-MRhgHaKP?rs=1&pid=ImgDetMain",
+      "stats": {
+        "force": 45,
+        "vitesse": 50,
+        "magie": 30
+      },
+      "note": null,
+      "id": "5086",
+      "equipements": ""
+    },
+    {
+      "nom": "Han Song-Yi",
+      "classe": "Assassin",
+      "image": "https://th.bing.com/th/id/OIP.UvdzgjzialjppWEDP878YwHaIz?rs=1&pid=ImgDetMain",
+      "stats": {
+        "force": 40,
+        "vitesse": 45,
+        "magie": 25
+      },
+      "note": null,
+      "id": "cd39",
+      "equipements": ""
+    },
+    {
+      "nom": "Sung Jin-ah",
+      "classe": "citoyenne",
+      "image": "https://i.pinimg.com/736x/db/cc/6d/dbcc6d22a28a018e622c85660c6e305f.jpg",
+      "stats": {
+        "force": 5,
+        "vitesse": 5,
+        "magie": 0
+      },
+      "note": "5",
+      "id": "222a",
+      "equipements": ""
+    },
+    {
+      "nom": "Thomas Andre",
+      "classe": "Guerrier",
+      "image": "https://th.bing.com/th/id/OIP.QOa3tHXNSmLmxvwtlWJmAAHaHa?rs=1&pid=ImgDetMain",
+      "stats": {
+        "force": 300,
+        "vitesse": 300,
+        "magie": 300
+      },
+      "note": null,
+      "id": "04e7",
+      "equipements": ""
+    },
+    {
+      "nom": "Woo Jinchul",
+      "classe": "Combattant",
+      "image": "https://i.pinimg.com/originals/f0/3f/2a/f03f2ae3b90accd70b3622139a3190bf.jpg",
+      "stats": {
+        "force": 25,
+        "vitesse": 30,
+        "magie": 10
+      },
+      "note": null,
+      "id": "b8fa",
+      "equipements": ""
+    }
+  ],
+  "equipements": [
+    {
+      "nom": "Croc empoisonné de Csaka",
+      "description": "Un poignard qui accorde +25 à la puissance d'attaque. Il inflige les effets 'Paralysie' et 'Saignement' lors d'attaques réussies. La paralysie immobilise la cible et le saignement réduit la santé de l'adversaire de 1% par seconde. Jin-Woo lâche finalement cette arme car les ennemis les plus forts auxquels il a été confronté résistaient à la fois au saignement et à la paralysie.",
+      "type": "Dague",
+      "image": "https://i.pinimg.com/originals/76/51/33/7651337183d77633b60966c3ab2b290e.jpg",
+      "attributs": {
+        "force": 25,
+        "vitesse": 10,
+        "magie": 0
+      },
+      "id": "8677"
+    },
+    {
+      "nom": "Tueuse de chevalier",
+      "description": "Un poignard qui confère une puissance d'attaque de +75. Il inflige 25% de dégâts supplémentaires contre les ennemis blindés.",
+      "type": "Dague",
+      "image": "https://th.bing.com/th/id/OIP.xkyd5risL_ZuyBRZcrd_pAHaHa?rs=1&pid=ImgDetMain",
+      "attributs": {
+        "force": 75,
+        "vitesse": 25,
+        "magie": 10
+      },
+      "id": "8e9f"
+    },
+    {
+      "nom": "Dague de Baruka",
+      "description": "Une dague qui accorde +110 à la puissance d'attaque et +30 à l'agilité.",
+      "type": "Dague",
+      "image": "https://th.bing.com/th/id/OIP.xOWzTXSUblwnRB4YWhNGKgHaFj?rs=1&pid=ImgDetMain",
+      "attributs": {
+        "force": 110,
+        "vitesse": 30,
+        "magie": 20
+      },
+      "id": "3a20"
+    },
+    {
+      "nom": "Epée courte du roi démon",
+      "description": "Épées courtes qui accordent individuellement un bonus de puissance d'attaque de +220. Lorsqu'ils sont utilisés ensemble, ils ont un bonus d'ensemble 'Deux en un' qui augmente le bonus d'attaque de la statistique de force de l'utilisateur.",
+      "type": "épées courtes",
+      "image": "https://th.bing.com/th/id/OIP.dXQATosbeX12x3IkmpgdWAAAAA?rs=1&pid=ImgDetMain",
+      "attributs": {
+        "force": 220,
+        "vitesse": 100,
+        "magie": 40
+      },
+      "id": "08b8"
+    },
+    {
+      "nom": "Colère de Kamish",
+      "description": "Épées courtes construites à partir du croc le plus puissant de Kamish. Ceux-ci accordent une augmentation de la puissance d'attaque de +1 500 et un effet spécial qui augmente la puissance destructrice de l'utilisateur avec les attaques d'aura.",
+      "type": "Dague",
+      "image": "https://th.bing.com/th/id/OIP.b563qgssjFxQqxu00URHIAHaDj?rs=1&pid=ImgDetMain",
+      "attributs": {
+        "force": 1500,
+        "vitesse": 1000,
+        "magie": 500
+      },
+      "id": "a1b9"
+    },
+    {
+      "nom": "Coupe de la réincarnation",
+      "description": "Une coupe utilisée depuis la nuit des temps par les souverains afin de contrer les monarques qui veulent détruire le monde.",
+      "type": "Boisson",
+      "image": "https://th.bing.com/th/id/OIP.w76QAXX5xy5-CUtmJUndwQHaKC?rs=1&pid=ImgDetMain",
+      "attributs": {
+        "force": 10000,
+        "vitesse": 10000,
+        "magie": 10000
+      },
+      "id": "d303"
+    },
+    {
+      "nom": "Fusil de la Tempête",
+      "description": "Un fusil avec une conception élégante qui accorde un bonus de +20 à la force et à la vitesse, ainsi que +10 à la magie. C'est une arme polyvalente utilisée pour attaquer à distance avec précision.",
+      "type": "Fusil",
+      "image": "https://media.istockphoto.com/vectors/rifle-comic-style-drawing-vector-id481913934?k=6&m=481913934&s=170667a&w=0&h=Ra7mWcRV7N3M3rXqyVcNKUDbRbsKckH2ZsNd21bKK2o=",
+      "attributs": {
+        "force": 20,
+        "vitesse": 20,
+        "magie": 10
+      },
+      "id": "c8f3"
+    },
+    {
+      "nom": "Hache de la Brute",
+      "description": "Une hache massive conçue pour infliger des dégâts brutaux. Elle offre un bonus de +40 à la force mais sacrifie la vitesse avec seulement +5. Elle n'a pas de capacité magique.",
+      "type": "Hache",
+      "image": "https://th.bing.com/th/id/OIP.RJDjp9OxALD6cr9AsfwiSAAAAA?w=250&h=250&rs=1&pid=ImgDetMain",
+      "attributs": {
+        "force": 40,
+        "vitesse": 5,
+        "magie": 0
+      },
+      "id": "1652"
+    },
+    {
+      "nom": "Éventail de l'Esprit",
+      "description": "Un éventail orné d'inscriptions magiques, offrant un bonus de +5 à la force, +20 à la vitesse et +25 à la magie. Cet objet est utilisé par les lanceurs de sorts pour canaliser et",
+      "type": "Éventail",
+      "image": "https://th.bing.com/th/id/OIP.N_7t5mRIBnZPMTkL-MPMggHaEa?rs=1&pid=ImgDetMain",
+      "attributs": {
+        "force": 5,
+        "vitesse": 20,
+        "magie": 25
+      },
+      "id": "d8fd"
+    },
+    {
+      "nom": "Glaive de la Lune",
+      "description": "Un glaive élégant avec une lame courbée qui accorde un bonus de +30 à la force, +20",
+      "type": "Glaive",
+      "image": "https://i.pinimg.com/originals/34/85/d3/3485d36bebf6910eb2250747cabc4764.jpg",
+      "attributs": {
+        "force": 30,
+        "vitesse": 20,
+        "magie": 10
+      },
+      "id": "1262"
+    },
+    {
+      "nom": "Arcane du Crépuscule",
+      "type": "Baguette",
+      "description": "Une baguette magique imprégnée de pouvoir crépusculaire. Elle accorde un bonus de +10 à la force, +5 à la vitesse et +40 à la magie.",
+      "image": "https://www.closeupshop.fr/media/oart_0/oart_h/oart_82082/827672_Z884690.JPG",
+      "attributs": {
+        "force": 10,
+        "vitesse": 5,
+        "magie": 40
+      },
+      "id": "f9c9"
+    },
+    {
+      "nom": "Faux de l'Ombre",
+      "type": "Faux",
+      "description": "Une faux sombre, forgée dans les ténèbres les plus profondes. Elle offre un bonus de +35 à la force, +10 à la vitesse et +5 à la magie.",
+      "image": "https://th.bing.com/th/id/R.45c186fd64e4d5d53db4c9f27565dbdd?rik=bmCazrm92tXTBw&pid=ImgRaw&r=0",
+      "attributs": {
+        "force": 35,
+        "vitesse": 10,
+        "magie": 5
+      },
+      "id": "8459"
+    },
+    {
+      "nom": "Dague de l'Esprit",
+      "type": "Dague",
+      "description": "Une dague enchantée, conçue pour canaliser la puissance de l'esprit. Elle accorde un bonus de +20 à la force, +30 à la vitesse et +10 à la magie.",
+      "image": "https://th.bing.com/th/id/OIP.X-ERy4Q_rncrO6xpEejzaQAAAA?rs=1&pid=ImgDetMain",
+      "attributs": {
+        "force": 20,
+        "vitesse": 30,
+        "magie": 10
+      },
+      "id": "24f0"
+    },
+    {
+      "nom": "Lame de l'Éclair",
+      "type": "Épée",
+      "description": "Une épée étincelante, capable de fendre le ciel avec sa rapidité. Elle offre un bonus de +25 à la force, +20 à la vitesse et +15 à la magie.",
+      "image": "https://th.bing.com/th/id/R.c1fd97d0f4d4bfca92ea6cbb9dfa2105?rik=bn6Z5gDCna%2b0Dw&pid=ImgRaw&r=0",
+      "attributs": {
+        "force": 25,
+        "vitesse": 20,
+        "magie": 15
+      },
+      "id": "cc53"
+    },
+    {
+      "nom": "Fusil de Cristal",
+      "type": "Fusil",
+      "description": "Un fusil élégant, cristallin et magiquement chargé. Il accorde un bonus de +15 à la force, +25 à la vitesse et +20 à la magie.",
+      "image": "https://th.bing.com/th/id/OIP.L9gbQOiZAi-Z9D8mt3h_rgHaFj?rs=1&pid=ImgDetMain",
+      "attributs": {
+        "force": 15,
+        "vitesse": 25,
+        "magie": 20
+      },
+      "id": "c024"
+    },
+    {
+      "nom": "Épée du Crépuscule",
+      "type": "Épée",
+      "description": "Une épée imprégnée de l'énergie du crépuscule. Elle offre un bonus de +35 à la force, +15 à la vitesse et +10 à la magie.",
+      "image": "https://th.bing.com/th/id/R.336b94df37bd41a833c47d161f3a46ea?rik=wi0KpMOwLi8FXw&pid=ImgRaw&r=0",
+      "attributs": {
+        "force": 35,
+        "vitesse": 15,
+        "magie": 10
+      },
+      "id": "b27c"
+    },
+    {
+      "nom": "Arc de la Brume",
+      "type": "Arc",
+      "description": "Un arc magique qui tire ses flèches de la brume mystique. Il accorde un bonus de +15 à la force, +10 à la vitesse et +25 à la magie.",
+      "image": "https://i.pinimg.com/originals/3b/ae/fc/3baefc37423ff5287a7e4a1a3355c429.jpg",
+      "attributs": {
+        "force": 15,
+        "vitesse": 10,
+        "magie": 25
+      },
+      "id": "2234"
+    }
+  ]
+}

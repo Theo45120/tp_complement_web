@@ -1,22 +1,22 @@
 // Instantiate API
-import ArticleProvider from "./../../services/ArticleProvider.js";
+import PersonnageProvider from "../../services/PersonnageProvider.js";
 
 export default class Home {
 
     async render() {
-        let articles = await ArticleProvider.fetchArticles(3)
-        let html = articles.map(article =>
+        let personnages = await PersonnageProvider.fetchPersonnages(3)
+        let html = personnages.map(personnage =>
             /*html*/`
             <div class="col">
             <div class="card shadow-sm">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">${article.title}</text></svg>
+            <img src="${personnage.image}" alt="Image du personnage" style="width: 100%; height: 200px; object-fit: cover; border-radius:10%;">
                 <div class="card-body">
-                    <p class="card-text">${article.text ? article.text.slice(0, 100) : ''}</p>
+                    <p id="name" class="card-text">${personnage.nom ? personnage.nom.slice(0, 100) : ''}</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                        <a href="#/articles/${article.id}" class="btn btn-sm btn-outline-secondary">+ détail sur ${article.title}</a>
+                        <a href="#/personnages/${personnage.id}" class="btn btn-sm btn-outline-secondary">+ détail sur les statistiques</a>
                         </div>
-                        <small class="text-body-secondary">${article.id}</small>
+                        <small class="text-body-secondary">${personnage.classe}</small>
                     </div>
                 </div>
             </div>
@@ -28,12 +28,12 @@ export default class Home {
             <section class="py-5 text-center container">
                 <div class="row py-lg-5">
                     <div class="col-lg-6 col-md-8 mx-auto">
-                        <h1 class="fw-light">Articles example</h1>
-                        <p class="lead text-body-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, aliquid voluptas sit aperiam quis architecto quaerat vel ratione placeat delectus repellendus cum animi sequi amet corporis minima ab, nisi at!</p>
-                        <p>
-                            <a href="" class="btn btn-primary my-2">Main call to action</a>
-                            <a href="" class="btn btn-secondary my-2">Secondary action</a>
-                        </p>
+                        <h1 class="fw-light">Solo leveling</h1>
+                        <p class="lead ">"Solo Leveling" est une série de romans web sud-coréens écrite par Chu-Gong. Elle a été adaptée en un webcomic illustré par Jang Sung-rak. L'histoire tourne autour de Sung Jin-Woo, un chasseur rang E, le plus faible de tous les chasseurs. Cependant, il est propulsé dans un monde de monstres et de quêtes dangereuses lorsqu'il découvre qu'il possède un pouvoir unique lui permettant de devenir plus fort. </p> <br> </br>
+
+                        <p class="lead">Le récit suit son parcours alors qu'il progresse de manière exponentielle, acquérant de nouvelles compétences et capacités. Au fur et à mesure que l'histoire avance, Jin-Woo se trouve impliqué dans des conspirations plus vastes et des enjeux mondiaux, se frayant un chemin à travers des donjons et affrontant des adversaires redoutables pour protéger ceux qui lui sont chers. </p> <br></br>
+                        
+                        <p class="lead"> " Solo Leveling " est apprécié pour son action intense, ses rebondissements captivants et son protagoniste charismatique. Il explore également des thèmes tels que la détermination, le dépassement de soi et la loyauté. La série a acquis une grande popularité tant en Corée qu'à l'international, attirant de nombreux fans de light novels et de webcomics.</p>
                     </div>
                 </div>
             </section>
@@ -44,3 +44,4 @@ export default class Home {
         `;
     }
 }
+
